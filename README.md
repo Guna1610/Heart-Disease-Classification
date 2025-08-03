@@ -19,7 +19,7 @@ Python, Scikit-learn, XGBoost, CatBoost, Pandas, NumPy, Matplotlib, Seaborn
 
 ## 📚 Dataset
 UCI Heart Disease dataset  
-[🔗 Kaggle Link](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
+
 
 ## 🚀 How to Run
 ```bash
