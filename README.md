@@ -1,24 +1,68 @@
 # 🫀 Heart Disease Classification using Machine Learning
 
-This project predicts the presence of heart disease using clinical data from the UCI Cleveland dataset. It explores multiple ML models and applies advanced evaluation to ensure medical accuracy.
+This project predicts the **presence of heart disease** using patient data from the **UCI Cleveland dataset**.  
+It covers **end-to-end machine learning workflow** — from data exploration to final model deployment-ready evaluation.  
+The goal is to create a **reliable, explainable, and accurate model** for potential medical use cases.
 
-## 📁 Project Structure
-- **Notebook:** End-to-end Jupyter notebook (`.ipynb`) with EDA, model training, evaluation, and hyperparameter tuning.
-- **Models Used:** Logistic Regression, KNN, Decision Tree, Random Forest, Naive Bayes, SVM, XGBoost, CatBoost.
-- **Evaluation Metrics:** Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC Curve.
-- **Tuning:** Manual tuning, `RandomizedSearchCV`, and `GridSearchCV`.
+---
 
-## 📊 Results
-- Final model: **Logistic Regression**
-- Accuracy: ~84.5%
-- Recall: ~92.1%
-- F1-Score: ~86.7%
+## 🎯 Objective
+Predict whether a patient is likely to have heart disease based on:
+- Age, sex, blood pressure, cholesterol
+- ECG results, heart rate, exercise-induced angina
+- And other clinical features
 
-## 🛠 Tech Stack
-Python, Scikit-learn, XGBoost, CatBoost, Pandas, NumPy, Matplotlib, Seaborn
+---
+
+## 📊 Tools & Technologies
+- **Languages/Libraries:** Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost, CatBoost  
+- **Environment:** Jupyter Notebook
+
+---
 
 ## 📚 Dataset
-UCI Heart Disease dataset  
+- **Source:** [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+Disease)
+- **Description:** Contains **clinical attributes** of patients and a binary target variable indicating the presence of heart disease.
+
+---
+
+## 🧠 Models Implemented
+- Logistic Regression  
+- K-Nearest Neighbors (KNN)  
+- Decision Tree  
+- Random Forest  
+- Naive Bayes  
+- Support Vector Machine (SVM)  
+- XGBoost  
+- CatBoost  
+
+---
+
+## 🏆 Model Evaluation Metrics
+- Accuracy  
+- Precision  
+- Recall (focus for medical sensitivity)  
+- F1-Score  
+- Confusion Matrix  
+- ROC-AUC Curve  
+
+---
+
+## 🔧 Model Tuning
+- Manual tuning
+- **RandomizedSearchCV**
+- **GridSearchCV**
+
+---
+
+## 📈 Final Results
+- **Best Model:** Logistic Regression  
+- **Accuracy:** ~84.5%  
+- **Recall:** ~92.1% *(prioritized for detecting more positive cases)*  
+- **F1-Score:** ~86.7%
+
+---
+
 
 
 ## 🚀 How to Run
