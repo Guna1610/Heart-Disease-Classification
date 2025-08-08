@@ -62,10 +62,34 @@ Predict whether a patient is likely to have heart disease based on:
 - **F1-Score:** ~86.7%
 
 ---
+## 📂 Project Structure
+├── data/ # Dataset files (if available)
+├── notebooks/ # Jupyter notebooks for analysis & modeling
+├── src/ # Python scripts (EDA, preprocessing, modeling)
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
 
 
+
+
+---
 
 ## 🚀 How to Run
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/heart-disease-classification.git
+cd heart-disease-classification
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run Jupyter Notebook
 jupyter notebook
+
+📌 Key Insights
+Recall is prioritized to minimize false negatives in medical diagnosis.
+Logistic Regression performed best after tuning despite testing multiple models.
+Features like cp (chest pain type), thalach (max heart rate), and oldpeak had high predictive power.
+
+📜 License
+This project is for educational purposes based on the publicly available UCI dataset.
